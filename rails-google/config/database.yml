@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: rails-google_production
-  username: rails-google
+  #username: rails-google
   password: <%= ENV['RAILS-GOOGLE_DATABASE_PASSWORD'] %>
